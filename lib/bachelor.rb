@@ -1,7 +1,7 @@
 
 
 require 'json'
-file = File.read('..\spec\fixtures\contestants.json')
+file = File.read('.\spec\fixtures\contestants.json')
 
 puts file
 
