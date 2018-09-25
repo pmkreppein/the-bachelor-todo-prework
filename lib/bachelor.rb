@@ -1,7 +1,7 @@
 
 
 require 'json'
-file = File.read('.\data.json')
+file = File.read('data.json')
 
 puts file
 
