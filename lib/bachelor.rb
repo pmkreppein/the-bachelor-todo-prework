@@ -1,6 +1,9 @@
+
+
 require 'json'
 
-my_hash = JSON.parse()
+my_hash = JSON.parse('{"hello": "goodbye"}')
+puts my_hash["hello"] => "goodbye"
 
 def get_first_name_of_season_winner(data, season)
   # code here
