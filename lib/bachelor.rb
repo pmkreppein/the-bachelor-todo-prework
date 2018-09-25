@@ -1,6 +1,9 @@
 
 
 require 'json'
+file = File.read('..\spec\fixtures\contestants.json')
+
+puts file
 
 my_hash = JSON.parse('{"hello": "goodbye"}')
 puts my_hash["hello"] 
