@@ -5,11 +5,12 @@ file = File.read('data.json')
 
 puts file
 
-my_hash = JSON.parse('{"hello": "goodbye"}')
-puts my_hash["hello"] 
+my_hash = JSON.parse(file)
+
 
 def get_first_name_of_season_winner(data, season)
   # code here
+  
 end
 
 def get_contestant_name(data, occupation)
